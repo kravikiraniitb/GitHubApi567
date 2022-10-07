@@ -20,11 +20,13 @@ def githubapi567(GithubID):
                     return "Results obtained successfully"
                 else:
                     #raise Exception("error occured while retrieving the commits of a repository")
+                    print("error occured while retrieving the commits of a repository")
                     return "error occured while retrieving the commits of a repository"
 
         else:
             
             #raise Exception("error occured while retrieving a user's repositories")
+            print("error occured while retrieving a user's repositories")
             return "error occured while retrieving a user's repositories"
 
     except:
