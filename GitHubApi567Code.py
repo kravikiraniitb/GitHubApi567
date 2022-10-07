@@ -17,7 +17,7 @@ def githubapi567(GithubID):
                     no_comits = len(commits.json())
                     print("Repo: "+repo_name+" Number of commits: "+str(no_comits))
                     #return "Repo: "+repo_name+" Number of commits: "+str(no_comits)
-                    return "Results obtained successfully"
+                    #return "Results obtained successfully"
                 else:
                     #raise Exception("error occured while retrieving the commits of a repository")
                     print("error occured while retrieving the commits of a repository")
