@@ -22,6 +22,8 @@ def githubapi567(GithubID):
                     #raise Exception("error occured while retrieving the commits of a repository")
                     print("error occured while retrieving the commits of a repository")
                     return "error occured while retrieving the commits of a repository"
+                    break
+                
 
         else:
             
