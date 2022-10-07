@@ -7,9 +7,7 @@ class TestAPI(unittest.TestCase):
     def testAPI1(self): 
         self.assertEqual(githubapi567("kravikiraniitb"),"Results obtained successfully")
 
-
-class TestAPI2(unittest.TestCase):
-    def testAPI1(self): 
+    def testAPI2(self): 
         self.assertEqual(githubapi567("kravikiraniitb2"),"error occured while retrieving a user's repositories")
 
 
